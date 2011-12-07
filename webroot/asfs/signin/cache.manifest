@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+# Bump per release:
+# VERSION 2
+
+# Always cached
+
+# Always network
+NETWORK:
+frontdesk.php
+visitor.php
+index.php
+images/bg-side.png
+style/main.css
+js/main.js
+js/utils.js
+ajax.php

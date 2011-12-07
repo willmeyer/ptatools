@@ -1,0 +1,105 @@
+/* reset */
+body,h1,h2,h3,h4,h5,h6,ol,ul,li,p { margin:0; padding:0; }
+
+body {
+  font:16px "Lucida Sans Unicode", sans-serif;
+  background-image:url('../images/graph.gif');
+}
+
+.clearer { clear:both; font-size:1px; line-height:1px; }
+
+h1,h2 { 
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: normal;
+  letter-spacing: -1px;
+  line-height: 1.2em;
+}
+h1 { 
+	color: #404040;
+	font-size: 22px; 
+}
+h2 { 
+  font-size: 18px;
+  color: #303030;
+}
+
+.entry-timespan {
+	width: 20%;
+}
+
+.entry-name {
+	width: 20%;
+}
+
+.entry-child {
+	width: 20%;
+}
+
+.entry-signOut {
+	width: 20%;
+}
+
+#title {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#main {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.entry {
+	width: 100%;
+}
+
+.entries {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	margin-left: auto;
+	border:1px dotted #c0c0c0;
+	padding: 10px;
+	background: white;
+}
+
+input[type="button"] {
+    background: #c0c0c0;
+    width: 150px;
+    padding: 9px;
+    letter-spacing: 1px;
+    border: none;
+    color: #202020;
+    font-weight: bold;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-appearance: none;
+}
+
+#newentry {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: left;
+	border:2px solid #c0c0c0;
+	padding: 20px;
+	background: white;
+}
+
+#theform {
+	border:1px dotted #c0c0c0;
+	padding: 10px;
+	background-color: white;
+}
+a {
+    text-decoration: none;    
+}
+
+a:hover {
+    text-decoration: underline;
+}

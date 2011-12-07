@@ -1,0 +1,238 @@
+body {
+    background: #fff url(../images/bg-side.png) repeat-y left;
+    margin: 0;
+    padding: 0;
+    font-family: arial,helvetica,serif;
+    font-size: 14px;
+    color: #666;
+}
+.blk {
+    color: #000;
+}
+
+input[type='text'], textarea {
+	font-size:16px;
+}
+ 
+#nonrows-content input[type="button"] {
+    font-family: Helvetica;
+    background: #39f;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-appearance: none;
+} 
+
+#topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 48px;
+    background: #2b2b2b;
+        background-image: linear-gradient(top, #000, #333);
+        background-image: -webkit-linear-gradient(#000, #333);
+        background-image: -moz-linear-gradient(#000, #333);
+        background-image: -ms-linear-gradient(top, #000, #333);
+    height: 47px;
+    border-bottom: 1px solid #1a1a1a;
+    z-index: 1;
+}
+#topbar-inner {
+    position: relative;
+    height: 47px;
+}
+#topbar-inner h1 {
+    display: inline-block;
+    background: url(../images/bg-aps-logo.png) no-repeat left;
+    line-height: 24px;
+    margin: 12px 0 0 20px;
+    padding: 0 0 0 34px;;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+    cursor: default;
+}
+
+#topbar-inner a {
+    color: #fff;
+}
+
+#topbar-buttons {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+#topbar-buttons button {
+    padding: 6px 12px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-appearance: none;
+}
+#topbar-buttons button.sign-in {
+    background: #39f;
+}
+#topbar-buttons button.sign-out {
+    background: #39f;
+}
+
+#sidebar {
+    position: fixed;
+    top: 48px;
+    left: 0;
+    right: 300px;
+    bottom: 0;
+    width: 260px;
+    padding: 40px 20px; 
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+}
+
+#sidebar h2 {
+    margin-top: 0;
+    font-size: 2.4em;
+    font-weight: normal;
+}
+
+#sidebar h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+#sidebar label {
+    display: block;
+    padding-bottom: 4px;
+	font-size: 1.2em;
+}
+#sidebar input[type="text"] {
+    width: 240px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+#sidebar textarea {
+    width: 244px;
+    height: 52px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#sidebar input[type="button"],input[type="submit"] {
+    font-family: Helvetica;
+    background: #39f;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-appearance: none;
+} 
+
+#sidebar #newentry-submit {
+    background: #2f871b;
+}
+
+#sidebar #search {
+	margin-top: 0px;
+}
+
+#sidebar #dateview {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}  
+
+#sidebar #cal-container {
+    text-shadow: 0px 0px 0px #333;
+	color: black;
+}
+
+.entries {
+	padding: 0px;
+	margin: 0px;
+}
+
+#rows-area {
+    position: absolute;
+    top: 48px;
+    left: 300px;
+    right: 0;
+    bottom: 0;
+}
+
+#nonrows-content {
+	padding: 25px;
+}
+
+#rows-area .row {
+    /* padding: 25px 50px; */
+    padding: 15px 30px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+#rows-area .row h3 {
+    color: black;
+}
+
+#rows-area .row table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#rows-area .row table td {
+    width: 25%;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+#rows-area .row table td:last-child input[type="button"] {
+    float: right;
+}
+#rows-area .entry-signout input {
+    background: #a22e0f;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-appearance: none;
+}
+#rows-area .entry-delete input {
+    background: #a22e0f;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-appearance: none;
+}
+
+#rows-area .row.out {
+    background: #f4f4f4;
+}
+#rows-area .row.out h3, 
+#rows-area .row.out .blk {
+    color: #666;
+}
+
+#topmessage {
+    background: #39f;
+    border-bottom: 1px solid #278bf0;
+    padding: 10px 20px;
+    color: #fff;
+}

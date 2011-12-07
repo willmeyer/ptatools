@@ -1,0 +1,14 @@
+TODOs
+-----
+
+style the select box for visit type
+
+revisit better animation on actual device for:
+ - new entry
+ - signout
+ - delete
+
+in-late/out-early sheet
+
+tabs for sheet switching
+

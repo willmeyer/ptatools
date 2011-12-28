@@ -1,0 +1,5 @@
+JQuery and JQueryUI are used throughout this project.
+See http://jquery.com/
+See http://jqueryui.com/
+
+

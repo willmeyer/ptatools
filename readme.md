@@ -13,7 +13,7 @@ The toolset consists of:
 * A web app for use by front-desk employees, in their desktop browsers, to see who has signed in and out, search, etc.
   This is the _Front-Desk_ interface.
 
-#### A few screenshots
+#### Screenshots
 
 The visitor interface:
 
@@ -27,7 +27,7 @@ The front-desk interface:
 ### Setup and Requirements
 
 The app is web-based, HTML5/JS in PHP, and should be able to run anywhere you can host PHP and get to a Mongo database.
-For Mongo, I use and recommend [MongoHQ]{http://www.mongohq.com).
+For Mongo, I use and recommend [MongoHQ](http://www.mongohq.com).
 	
 In theory, the app is usable by others, though the branding is specific to my son's school and there's not anything like
 the kind of pluggable interface you'd want there.  
